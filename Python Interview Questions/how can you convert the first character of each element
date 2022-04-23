@@ -1,0 +1,29 @@
+How can you convert the first character of each element in a Pandas series to uppercase?
+
+
+import pandas as pd
+
+ser = pd.Series(['mary', 'had', 'a', 'little', 'lamb'])
+print(ser)
+0      mary
+1       had
+2         a
+3    little
+4      lamb
+dtype: object
+
+
+
+
+ser = ser.map(lambda x: x.title())
+print(ser)
+0      Mary
+1       Had
+2         A
+3    Little
+4      Lamb
+dtype: object
+
+
+
+Как можете да преобразувате първия символ на всеки елемент от серия Pandas в главни букви?

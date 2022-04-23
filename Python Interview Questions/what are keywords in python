@@ -1,0 +1,29 @@
+what are keywords in python
+
+-python keywords are special reserved words
+
+-convey a special meaning to the compiler
+
+-each keyword has a special meaning and a specific operation
+
+-NEVER use it as a variable
+
+
+true, false, none, and, as, asset, def, class, continue, break,
+else, finally, elif, del, except, global, for, if, from, import,
+raise, try, or, return, pass, nonlocal, in, not, is, lambda
+
+
+
+
+
+
+какви са ключовите думи в python
+
+ключовите думи на python са специални запазени думи
+
+предават специално значение на компилатора
+
+всяка ключова дума има специално значение и специфична операция
+
+НИКОГА не го използвайте като променлива

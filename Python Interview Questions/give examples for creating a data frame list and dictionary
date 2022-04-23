@@ -1,0 +1,28 @@
+Give examples for creating a data frame list and dictionary.
+
+import pandas as pd
+
+data = [1, 2, 3, 4, 5]
+df = pd.DataFrame(data)
+print(df)
+   0
+0  1
+1  2
+2  3
+3  4
+4  5
+
+
+
+dict1 = {'fruit': ['apple', 'mango', 'banana'], 'count': [10, 12, 13]}
+df = pd.DataFrame(dict1)
+print(df)
+
+    fruit  count
+0   apple     10
+1   mango     12
+2  banana     13
+
+
+
+дайте примери за създаване на списък с рамки за данни и речник

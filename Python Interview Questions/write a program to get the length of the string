@@ -1,0 +1,17 @@
+Write a program to get the length of the string 'Ophthalmology'
+without using the len() function
+
+
+a = "Ophthalmology"
+
+count = 0
+for i in a:
+    count += 1
+print(count)
+
+
+
+
+
+Напишете програма, за да получите дължината на низа "Ophthalmology"
+без да използвате функцията len ()

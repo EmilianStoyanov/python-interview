@@ -1,0 +1,15 @@
+How can you get common items between two NumPy arrays?
+
+
+import numpy as np
+
+a = np.array([1, 2, 2, 1, 5, 6, 2, 8])
+b = np.array([7, 2, 10, 3, 6, 10, 0, 1])
+
+print(np.intersect1d(a, b))
+[1 2 6]
+
+
+
+
+Как можете да получите общи елементи между два масива NumPy?

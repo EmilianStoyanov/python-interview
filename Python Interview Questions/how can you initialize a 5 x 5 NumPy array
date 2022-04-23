@@ -1,0 +1,12 @@
+How can you initialize a 5*5 NumPy array comprising of all zeros
+
+import numpy as np
+
+a = np.zeros((5, 5))
+print(a)
+
+[[0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]]

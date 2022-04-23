@@ -1,0 +1,19 @@
+What do you understand by inheritance in Python?
+
+
+class fruit:
+    def __init__(self):
+        print("I`m a fruit")
+
+
+class citrus(fruit):
+    def __init__(self):
+        super(citrus, self).__init__()
+        print("I`m citrus")
+
+
+Lemon = citrus()
+
+
+I`m a fruit
+I`m citrus

@@ -1,0 +1,18 @@
+Let`s say you have two NumPy arrays like this, how can you add the individual elements?
+
+
+
+
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print(np.add(a, b))
+[5 7 9]
+
+
+
+
+
+Да предположим, че имате два масива NumPy като този, как можете да добавите отделните елементи?

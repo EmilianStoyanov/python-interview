@@ -1,0 +1,21 @@
+How can you randomize the items of a list in place in python?
+- you can randomize the items of a list using the shuffle() function
+
+
+
+from random import shuffle
+
+x = ['mary', 'had', 'a', 'little', 'lamb']
+
+shuffle(x)
+print(x)
+['little', 'had', 'lamb', 'mary', 'a']
+['a', 'lamb', 'mary', 'little', 'had']
+['lamb', 'little', 'mary', 'had', 'a']
+
+
+
+
+Как можете да рандомизирате елементите от списък на място в python?
+
+- можете да рандомизирате елементите от списък с помощта на функцията за разбъркване ()

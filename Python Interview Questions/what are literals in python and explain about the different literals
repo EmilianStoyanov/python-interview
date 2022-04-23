@@ -1,0 +1,22 @@
+what are literals in python and explain about the different literals
+
+-literals are the constants used in python
+    - String Literals
+    - Numeric Literals
+    - Boolean Literals
+    - Special Literals
+
+
+python has one special literal
+Used to specify to the field that is not created
+ t = None
+
+
+
+
+какви са литералите в python и обяснете за различните литерали
+литералите са константите, използвани в python
+
+
+python има един специален литерал
+Използва се за посочване на полето, което не е създадено

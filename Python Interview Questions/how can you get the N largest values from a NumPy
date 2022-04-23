@@ -1,0 +1,16 @@
+How can you get the N largest values from a NumPy array?
+
+
+
+
+import numpy as np
+
+x = np.array([12, 30, 1, 100, 59, 0])
+
+
+print(x[np.argsort(x)[-2:][::-1]])
+[100  59]
+
+
+
+Как можете да получите N най-големите стойности от масив NumPy?

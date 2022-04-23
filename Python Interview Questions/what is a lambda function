@@ -1,0 +1,19 @@
+What is a lambda function? Create a lambda function to add 10 to a given number.
+
+-Anonymous function, i.e a function without a name
+
+
+
+lambda arguments: expression
+
+
+x = lambda a: a + 10
+
+print(x(10))
+20
+
+
+
+
+
+Анонимна функция, т.е. функция без име
